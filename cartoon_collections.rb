@@ -4,7 +4,9 @@ def roll_call_dwarves(array)
   end
 end
 
-def summon_captain_planet(planteer)
+def summon_captain_planet(planteers)
+  cap_planteers = []
+  i = 0
   
 end
 
