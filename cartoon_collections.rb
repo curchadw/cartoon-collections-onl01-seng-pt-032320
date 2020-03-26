@@ -6,7 +6,8 @@ end
 
 def summon_captain_planet(planteers)
   planteers.collect do |planteer|
-    "#{planteer.capitalize}"
+    "#{planteer.capitalize()}!"
+  end
   
 end
 
