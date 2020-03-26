@@ -14,11 +14,7 @@ end
 def long_planeteer_calls(planteers)
   new_plant = []
   planteers.find do |planteer|
-    if planteer.length > 4
-      new_plant >> true 
-    else
-      false
-    end
+    
   end
   new_plant
 end
