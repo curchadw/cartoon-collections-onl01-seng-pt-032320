@@ -12,11 +12,9 @@ def summon_captain_planet(planteers)
 end
 
 def long_planeteer_calls(planteers)
-  new_plant = []
   planteers.find do |planteer|
-    
+    planteer.length > 4
   end
-  new_plant
 end
 
 def find_the_cheese# code an argument here
