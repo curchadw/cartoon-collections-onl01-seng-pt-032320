@@ -12,9 +12,10 @@ def summon_captain_planet(planteers)
 end
 
 def long_planeteer_calls(planteers)
+  new_plant = []
   planteers.find do |planteer|
     if planteer.length > 4
-      true
+      new_plant >> true 
     else
       false
     end
