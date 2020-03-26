@@ -5,8 +5,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(planteers)
-  cap_planteers = []
-  i = 0
+  planteers.collect do |planteer|
+    "#{planteer.capitalize}"
   
 end
 
