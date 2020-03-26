@@ -12,7 +12,7 @@ def summon_captain_planet(planteers)
 end
 
 def long_planeteer_calls(planteers)
-  planteers.find do |planteer|
+  planteers.any? do |planteer|
     planteer.length > 4
   end
 end
